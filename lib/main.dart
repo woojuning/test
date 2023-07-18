@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_state_notifier/flutter_state_notifier.dart';
 import 'package:flutter_statefnotifier_practice/providers/bg_color.dart';
@@ -55,7 +53,7 @@ class _HomePageState extends State<HomePage> {
           ? Colors.white
           : customerLevel == Level.silver
               ? Colors.grey
-              : Colors.purple,
+              : Colors.yellow,
       appBar: AppBar(
         title: Text('AppBar'),
         backgroundColor: colorState.color,
